@@ -1,6 +1,7 @@
 /* Utility classes */
 
 /* Grid and flex */
+
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -103,6 +104,7 @@
 .xl {
 	font-size: 4rem;
 }
+
 /* Margin */
 
 .my-1 {
@@ -209,6 +211,25 @@
 	color: #333;
 }
 
+/* Text colors */
+
+.text-primary {
+	color: var(--primary-color);
+}
+
+.text-secondary {
+	color: var(--secondary-color);
+}
+
+.text-dark {
+	color: var(--dark-color);
+}
+
+.text-light {
+	color: var(--light-color);
+	color: #333;
+}
+
 /* Links */
 
 .bg-dark a,
@@ -216,5 +237,28 @@
 .bg-primary a,
 .bg-secondary a,
 .btn a {
+	color: white;
+}
+
+/* Alerts */
+
+.alert {
+	background-color: var(--off-white-clr);
+	padding: 10px 20px;
+	font-weight: bold;
+	margin: 15px 0;
+}
+
+.alert em {
+	margin-right: 10px;
+}
+
+.alert-success {
+	background-color: var(--success-color);
+	color: white;
+}
+
+.alert-error {
+	background-color: var(--error-color);
 	color: white;
 }
