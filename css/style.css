@@ -241,6 +241,10 @@ pre {
 	margin: 20px 0;
 }
 
+.docs-main a:hover {
+	font-weight: bold;
+}
+
 .docs-main .grid {
 	grid-template-columns: 1fr 2fr;
 	align-items: flex-start;
@@ -251,10 +255,6 @@ pre {
 	padding: 5px;
 	margin: 5px;
 	border-bottom: 1px solid #dbd2d2;
-}
-
-.docs-main a:hover {
-	font-weight: bold;
 }
 
 /* Footer */
