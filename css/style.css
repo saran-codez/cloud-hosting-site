@@ -245,16 +245,16 @@ pre {
 	font-weight: bold;
 }
 
-.docs-main .grid {
-	grid-template-columns: 1fr 2fr;
-	align-items: flex-start;
-}
-
 .docs-main nav li {
 	font-size: 1.07rem;
 	padding: 5px;
 	margin: 5px;
 	border-bottom: 1px solid #dbd2d2;
+}
+
+.docs-main .grid {
+	grid-template-columns: 1fr 2fr;
+	align-items: flex-start;
 }
 
 /* Footer */
